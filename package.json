@@ -1,0 +1,23 @@
+{
+  "name": "dev-connector",
+  "version": "1.0.0",
+  "description": "Social Network for developers",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server",
+    "server": "nodemon server"
+  },
+  "author": "Akash Dixit",
+  "license": "MIT",
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "concurrently": "^6.0.1",
+    "config": "^3.3.6",
+    "express": "^4.17.1",
+    "express-validator": "^6.10.0",
+    "gravatar": "^1.8.1",
+    "jsonwebtoken": "^8.5.1",
+    "mongoose": "^5.12.3",
+    "request": "^2.88.2"
+  }
+}
