@@ -22,7 +22,7 @@ const Register = ( {setAlert, register, isAuthenticated} ) => {
         [e.target.name] : e.target.value
     })
 
-    const onSubmit = async (e)  => {
+    const onSubmit =  (e)  => {
         e.preventDefault();
 
         if(password !== password2){
