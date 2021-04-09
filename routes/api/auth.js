@@ -13,7 +13,7 @@ const User = require('../../models/User')
 //@access Public
 router.get('/',auth, async (req,res) => {
     try {
-        const user = await User.findById(req.user.id)/* .select('-password') */;
+        const user = await User.findById(req.user.id).select('-password');
         res.json(user)
 
     } catch (err) {
@@ -26,7 +26,6 @@ router.get('/',auth, async (req,res) => {
 //@desc  Authenticate User & get token
 //@access Public
 router.post('/',[
-
     body('email', 'Please include a valid email').isEmail(),
     body('password', 'Password is Required').exists()
     ],async (req,res) => {
