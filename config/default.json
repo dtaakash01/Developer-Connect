@@ -2,5 +2,6 @@
     "mongoURI": "mongodb+srv://akash:HJDlalANH7wEnaHl@cluster0.lkygp.mongodb.net/dev-connect?retryWrites=true&w=majority",
     "jwtSecret": "mysecrettoken",
     "githubClientId": "47aca4e74cac5acbd0b7",
-    "githubSecret": "969c17c2414d6c29f3610c6e6d160929fc67e6b0"
+    "githubSecret": "969c17c2414d6c29f3610c6e6d160929fc67e6b0",
+    "githubToken": "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"
 }

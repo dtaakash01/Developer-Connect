@@ -49,7 +49,7 @@ export default function profile(state = initialState, action) {
             ...state,
             profile: null,
             repos: [],
-            loading: false
+            loading: true
         };
 
         default: 
